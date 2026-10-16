@@ -1,0 +1,16 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Saved plans
+*.tfplan
+tfplan
+
+# Local variable values
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
